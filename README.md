@@ -20,7 +20,7 @@ All the convolution and deconvolution layer use random kernel initializer with s
 The optimizer used is AdamOptimizer for cross entropy loss and is defined in optimize function (line 128)
 The neural network is trained using train_nn function.
 
-The code is trained using 15, 20, 46,48 epochs and i felt 46 epochs were good enough.
-The batch size tried were 5,6,10 and I settled with 6.
+The code is trained using 15, 20, 46,48 epochs and i felt 48 epochs were good enough.
+The batch size tried were 5,6,10 and I settled with 5.
 The loss values are printed while training network and seems to be decresing in value gradually.
-The sample images are uploaded in image folder.
+Sample image um_000014.png uploaded in image folder for each epoch to compare.
