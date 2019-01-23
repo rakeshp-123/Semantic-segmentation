@@ -193,8 +193,10 @@ def run():
         op_layer = layers(out_layer3, out_layer4, out_layer7, num_classes)
         logits, train_op, cross_entropy_loss = optimize(op_layer, gt_label, learning_rate, num_classes)
         # TODO: Train N+N using the train_nn function
-        epochs = 46# 48 15 20
-        batch_size = 6 #5  10 6
+        # tried  15 20 46 
+        epochs = 48
+        # tried 5  10 6
+        batch_size = 5 
                                         
         saver = tf.train.Saver()
                                         
