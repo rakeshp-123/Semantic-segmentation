@@ -10,7 +10,9 @@ Make sure you have the following is installed:
  - [Python 3](https://www.python.org/)
  - [TensorFlow](https://www.tensorflow.org/)
  - [NumPy](http://www.numpy.org/)
- - [SciPy](https://www.scipy.org/)
+ - [SciPy](https://www.scipy.org/)  
+ 
+ ok
 
 You may also need [Python Image Library (PIL)](https://pillow.readthedocs.io/) for SciPy's `imresize` function.
 
